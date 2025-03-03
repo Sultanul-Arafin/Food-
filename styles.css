@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    color: #FF7417;
+}
+
+button {
+    background-color: #FFB40C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #FF7417;
+}
+
+a {
+    color: #FF7417;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #CF5A00;
+}
+
+/* Header */
+.header {
+    background-color: #FF7417;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #FF7417;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.cta-btn {
+    background-color: #FFB40C;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* How It Works Section */
+.how-it-works {
+    background-color: #fff3e0;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Calculator Section */
+.calculator {
+    background-color: #fff8e1;
+    padding: 40px;
+    text-align: center;
+}
+
+input[type="text"], input[type="number"], button {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"], input[type="number"] {
+    width: 40%;
+}
+
+/* FAQs Section */
+.faqs {
+    background-color: #fff3e0;
+    padding: 40px;
+}
+
+.faq {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #CF5A00;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
